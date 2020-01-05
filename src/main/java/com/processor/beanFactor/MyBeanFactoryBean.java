@@ -1,7 +1,9 @@
 package com.processor.beanFactor;
 
 import org.springframework.beans.factory.InitializingBean;
+import org.springframework.stereotype.Component;
 
+@Component
 public class MyBeanFactoryBean implements InitializingBean {
     private String initEcho;
     private String processorEcho;
